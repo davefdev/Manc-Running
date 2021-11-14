@@ -26,26 +26,26 @@ nav {
   justify-content: space-between;
 }
 
-nav .nav__logo {
+nav .nav-logo {
   padding: 1rem;
   font-size: 1.75rem;
   margin-left: 3rem;
   color: rgb(41, 41, 41);
 }
 
-nav .nav__list {
+nav .nav-list {
   display: flex;
   padding: 1rem;
   margin-right: 3rem;
 }
 
-nav .nav__link {
+nav .nav-link {
   padding: 1.5rem;
   font-size: 1.3rem;
   color: rgb(41, 41, 41);
 }
 
-nav .nav__link:hover {
+nav .nav-link:hover {
   color: rgba(255, 187, 0, 0.76);
   border-bottom: 3px solid rgb(255, 187, 0, 0.76);
   transition: all 0.3s ease 0s;
@@ -59,14 +59,14 @@ nav .nav__link:hover {
 
 /************ HERO **************/
 
-#hero__section {
+#hero-section {
   height: 42rem;
   width: 100%;
   overflow: hidden;
   position: relative;
 }
 
-#hero__img {
+#hero-img {
   height: 42em;
   width: 100%;
   background: url("images/hero6.jpg");
@@ -76,7 +76,7 @@ nav .nav__link:hover {
   animation: zoom 5s forwards;
 }
 
-#hero__text {
+#hero-text {
   background: rgba(255, 187, 0, 0.76);
   color: white;
   position: absolute;
@@ -91,12 +91,12 @@ nav .nav__link:hover {
   flex-direction: column;
 }
 
-#hero__text h2 {
+#hero-text h2 {
   margin-top: 2.5rem;
   margin-left: 1rem;
 }
 
-#hero__text p {
+#hero-text p {
   margin-left: 1rem;
 }
 
@@ -111,7 +111,7 @@ nav .nav__link:hover {
 
 /************** ABOUT **************/
 
-#about__section {
+#about-section {
   height: 39rem;
 }
 
@@ -184,7 +184,7 @@ p {
 
 /************** SCHEDULE **************/
 
-#schedule__section {
+#schedule-section {
   display: flex;
   height: 28em;
   justify-content: space-around;
@@ -196,7 +196,7 @@ p {
   overflow: hidden;
 }
 
-.schedule__card {
+.schedule-card {
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
   height: 28rem;
@@ -210,12 +210,12 @@ p {
   flex-direction: column;
 }
 
-.schedule__card i {
+.schedule-card i {
   margin-left: 0.25rem;
 }
 
 /************** SCHEDULE 
-#schedule__section {
+#schedule-section {
   display: grid;
   grid-template-columns: minmax(10rem, 30rem) minmax(10rem, 30rem) minmax(10rem,    30rem) minmax(10rem, 30rem) minmax(10rem, 30rem);
   grid-gap: 1rem;
@@ -229,7 +229,7 @@ p {
   overflow: hidden;
 }
 
-.schedule__card {
+.schedule-card {
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
   height: 23rem;
